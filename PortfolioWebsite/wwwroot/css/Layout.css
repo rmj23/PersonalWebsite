@@ -1,0 +1,22 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+body, html {
+  background-color: white;
+  height: 100%;
+}
+
+
+footer {
+    height: 60px;
+    margin-top: 5%;
+    bottom: 0;
+    line-height: 60px;
+    width: 100%;
+}
+
+@media (max-height: 580px){
+    #ProfileImg {
+        margin-top: 3% !important;
+    }
+}
